@@ -27,7 +27,7 @@ Then open http://localhost:8000
 
 All copy lives directly in `index.html` — sections are labeled with HTML comments (`<!-- HERO -->`, `<!-- EXPERIENCE -->`, etc.). Colors and fonts are defined as CSS variables at the top of `assets/css/styles.css` under `:root`.
 
-To update the downloadable résumé, replace `assets/resume/Anthony-Haas-Resume.docx` with a new file of the same name (or update the `href` in the hero section of `index.html`).
+To update the downloadable resume, replace `assets/resume/Anthony-Haas-Resume.docx` with a new file of the same name (or update the `href` in the hero section of `index.html`).
 
 ## Deploying
 
@@ -42,4 +42,4 @@ To update the downloadable résumé, replace `assets/resume/Anthony-Haas-Resume.
 
 ## Custom domain
 
-Once deployed, buying something like `anthonyhaas.com` or `tonyhaas.dev` and pointing it at the host gives you a clean URL to put on your résumé and LinkedIn.
+Once deployed, buying something like `anthonyhaas.com` or `tonyhaas.dev` and pointing it at the host gives you a clean URL to put on your resume and LinkedIn.
