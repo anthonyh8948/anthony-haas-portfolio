@@ -226,6 +226,7 @@ h1,h2,h3{font-family:var(--font-display);margin:0;line-height:1.15;font-weight:6
   background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px;
 }
 .edu-card h3{font-size:20px;color:var(--navy-950);margin-bottom:8px;}
+.edu-card h3 em{font-size:14px;color:var(--gold);font-style:normal;font-family:var(--font-body);font-weight:600;}
 .edu-school{font-weight:600;color:var(--ink);margin:0 0 6px;}
 .edu-meta{color:var(--ink-soft);font-size:14px;margin:0 0 10px;}
 .edu-honors{color:var(--gold);font-size:13.5px;font-weight:600;margin:0;}
