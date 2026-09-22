@@ -200,6 +200,12 @@ h1,h2,h3{font-family:var(--font-display);margin:0;line-height:1.15;font-weight:6
 }
 .venture-stats-alt{grid-template-columns:repeat(3,1fr);}
 .venture-stats div{border-top:1px solid var(--line);padding-top:14px;}
+.venture-stat-link{
+  display:block;border-top:1px solid var(--line);padding-top:14px;
+  text-decoration:none;color:inherit;
+}
+.venture-stat-link strong{transition:color .2s ease;}
+.venture-stat-link:hover strong{color:var(--gold);}
 .venture-stats strong{
   display:block;font-family:var(--font-display);font-size:26px;color:var(--navy-950);
 }
