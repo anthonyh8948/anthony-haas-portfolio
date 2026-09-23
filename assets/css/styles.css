@@ -257,12 +257,6 @@ h1,h2,h3{font-family:var(--font-display);margin:0;line-height:1.15;font-weight:6
 .edu-school{font-weight:600;color:var(--ink);margin:0 0 6px;}
 .edu-meta{color:var(--ink-soft);font-size:14px;margin:0 0 10px;}
 .edu-honors{color:var(--gold);font-size:13.5px;font-weight:600;margin:0;}
-.edu-transcript-link{
-  display:inline-block;font-weight:600;font-size:13.5px;color:var(--gold);
-  margin-top:16px;border-bottom:1px solid var(--gold);padding-bottom:2px;
-  transition:color .2s ease,border-color .2s ease;
-}
-.edu-transcript-link:hover{color:var(--navy-950);border-color:var(--navy-950);}
 
 /* Contact */
 .section-contact{
